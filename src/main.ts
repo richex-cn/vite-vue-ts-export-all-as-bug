@@ -1,7 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import * as volar from '@volar/experimental/client';
+import { bar } from './foo';
+
+console.log(bar);
 
 const app = createApp(App);
-app.use(volar.vuePlugin);
 app.mount('#app');
