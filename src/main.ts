@@ -1,8 +1,8 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import { bar } from './foo';
+import { env } from './env';
 
-console.log(bar);
+console.log(env);
 
 const app = createApp(App);
 app.mount('#app');
