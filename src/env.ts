@@ -1,1 +1,1 @@
-export const env = import.meta.env.DEV ? 'dev' : 'prod'
+export const env = import.meta.env
